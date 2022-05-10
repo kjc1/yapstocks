@@ -125,6 +125,7 @@ Item {
 
         PlasmaComponents3.ScrollView {
             anchors.fill: parent
+            anchors.topMargin: headerRow.height
             ListView {
                 id: view
 
